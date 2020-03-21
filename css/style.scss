@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefbb;
+  background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+  color: white;
+  font-family: rubik;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  color: #000;
+  font-size: 54px;
+  text-align: center;
+}
+
+@import 'pokedex';
+@import 'card';
+@import 'pokemon-types-colors';
+@import 'animations';

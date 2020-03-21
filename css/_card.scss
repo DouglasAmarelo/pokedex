@@ -1,0 +1,48 @@
+.card {
+  border-radius: 20px;
+  color: #222;
+  list-style: none;
+  padding: 40px;
+  position: relative;
+  text-align: center;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 45%;
+    border-radius: 100%;
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+  }
+
+  &:hover {
+    animation: bounce 0.5s linear;
+  }
+
+  &-title {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 2;
+  }
+
+  &-subtitle {
+    color: #777;
+    font-weight: lighter;
+    margin-top: 5px;
+    position: relative;
+    z-index: 2;
+  }
+
+  &-image {
+    height: 180px;
+    position: relative;
+    z-index: 2;
+  }
+}
